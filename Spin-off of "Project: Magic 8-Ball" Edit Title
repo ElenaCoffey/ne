@@ -1,0 +1,60 @@
+fill(0, 0, 0);
+ellipse(200, 200, 375, 375);
+fill(21, 230, 150);
+ellipse(200, 200, 292, 358);
+
+
+var number = random (-2,4);
+var answer = floor(number);
+
+draw = function() {
+
+if (answer === -2) {
+    noStroke();
+    fill (47, 235, 5);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill (8, 33, 5);
+    text("You almost there", 159, 229); 
+    text("Don't miss it", 167, 254);
+}
+else if(answer ===-1) {
+    noStroke();
+    fill (217, 63, 63);
+    rect (133, 142, 135, 135);
+    fill (185, 187, 212);
+    text ( "You missed",166, 191);
+    text ( "the opportunity",159, 213);
+     text ( "Wait for next turn",155, 240);}
+else if (answer === 0) { 
+    noStroke();
+     fill (9, 68, 230);
+     ellipse (200, 200, 146, 222);
+     fill (3, 3, 3);
+    text ("Xa-Xa, you got it!",156 , 204);
+    }
+    else if (answer === 1) { 
+        noStroke();
+     fill (24, 232, 9);
+     triangle(200, 104, 280, 280, 120, 280);
+     fill (3, 3, 3);
+    text ("You will ",176 , 229);
+    text (" get an offer",167 , 249);
+    }
+   
+    else if (answer === 2) {
+    noStroke();
+     fill (21, 230, 21);
+     ellipse(203, 195, 203, 70);
+     fill (28, 17, 222);
+    text ("You will ",181 , 186);
+    text (" be lucky",179 , 210);
+    } 
+    else { 
+        noStroke();
+     fill (138, 140, 43);
+     ellipse(201, 205, 148, 146);
+     fill (3, 3, 3);
+    text ("You will ",176 , 203);
+    text (" lose",183 , 230);
+    } 
+};
