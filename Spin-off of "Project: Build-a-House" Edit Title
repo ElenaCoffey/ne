@@ -1,0 +1,62 @@
+background(219, 255, 255);
+
+fill(135, 104, 31);
+quad (272, 74, 350, 150, 50, 150, 151, 30);//roof
+
+fill(217, 164, 17);
+rect(60, 150, 280, 207); //wall
+
+
+for (var g=151; g<313; g=g+10) { //bricks
+    fill(242, 145, 17);
+rect (g, g, 20, 10);
+
+}
+
+ for (var g=151; g<311; g=g+10) {
+    fill(242, 145, 17);
+rect (g+20, g, 20, 10); //bricks
+
+}   
+for (var g=151; g<290; g=g+10) {
+    fill(242, 145, 17);
+rect (g+40, g, 20, 10);//bricks
+
+}   
+for (var g=151; g<269; g=g+10) {
+    fill(242, 145, 17);
+rect (g+60, g, 20, 10);//bricks
+
+}  
+
+
+    for (var i=50; i>6; i=i-5)
+{
+    fill(26, 0, 255);//blue sun
+ellipse (50, 50, i, i);
+}
+for (var g=86; g<300; g=g+50) {
+    strokeWeight(6);
+    stroke(150, 104, 30);
+    fill(255, 247, 0);
+rect (g, 175, 22, 60, -7);//windows
+}   
+    noStroke();
+fill(240, 144, 19);
+rect (170, 247, 59, 88);//door
+fill(227, 18, 32);
+rect(180, 258, 40, 70);
+  var x=-3;
+for (var grass = getImage("cute/GrassBlock"); x<305; x=x+100) {
+    
+     image(grass, x, 270);//grass
+}
+fill(79, 48, 7);
+  rect (183, 285, 5, 14);  
+
+    
+
+
+
+
+
