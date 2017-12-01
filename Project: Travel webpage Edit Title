@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+          #fact-list{background-color:rgb(101, 136, 199);}  #fact-list{color: rgb(187, 230, 237);}
+    h1{color: rgb(82, 145, 116);}
+    h2{color: rgb(40, 130, 121);}
+    h3{color: rgb(73, 148, 209);}
+    .imp-points {color: rgb(18, 117, 166);}
+    p{background-color:rgb(235, 237, 190);}
+    #the-most-facts {color: rgb(22, 48, 196);}
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to Hawaii</h1>
+        
+       <img src="https://www.kasandbox.org/programming-images/landscapes/beach.png" alt="green pithon resting on the tree branches" width="258">
+       
+        <h2> Interesting Facts About Hawaii</h2>
+        
+<ol id="fact-list">
+
+<li>The state of Hawaii consists of<em> eight</em> main islands: Niihau, Kauai, Oahu, Maui, Molokai, Lanai, Kahoolawe and the Big Island of Hawaii.</li>
+<li>Hawaii is the<em> most isolated</em> population center on the face of the earth. Hawaii is 2,390 miles from California; 3,850 miles from Japan; 4,900 miles from China; and 5,280 miles from the Philippines.</li>
+<li>Hawaii is the<em> only </em>state that grows <em>coffee</em>.</li>
+<li>More than <em>one-third</em> of the world's commercial supply of <em>pineapples</em> comes from Hawaii. </li> 
+        </ol>
+        
+<h3> More interesting facts you need to know:</h3>
+<img src="https://www.kasandbox.org/programming-images/landscapes/clouds-from-plane.png" alt="green pithon resting on the tree branches" width="258">
+<ul id="the-most-facts">
+    
+<li>Two of the tallest mountains in the Pacific - Mauna Kea and Mauna Loa - dominate the center of the island. Most of the world's macadamia nuts are grown on the island.</li>
+<li>Kilauea Iki is the world's most active and largest volcano.</li>
+<li>Mauna Kea is the tallest mountain in the world (measured from its base at the ocean floor).</li>
+<li>The island houses the world's biggest telescope and more scientific observatories in one place than anywhere else in the world.</li> 
+    
+</ul>
+
+
+<h3>What places to visit: </h3>
+ 
+ <img src="https://www.kasandbox.org/programming-images/landscapes/mountains-in-hawaii.png" alt="green pithon resting on the tree branches" width="258">       
+        
+        <p>Honolulu is the largest city in the world -- at least it has the longest borders.<strong class="imp-points"> According to the state constitution any island (or islet) not named as belonging to a county belongs to Honolulu.</strong> This makes all islands within the Hawaiian Archipelago, that stretch to Midway Island <strong class="imp-points">(1,500 miles northwest of Hawaii)</strong> part of Honolulu. Honolulu is about 1,500 miles long or more distance than halfway across the 48 contiguous states.</p>
+
+<p>Ka Lae is the <em> <strong class="imp-points">southernmost</strong></em> point in the United States. It is located at 18:54:49 N 155:41:00 W.   There is a constant 27 knots per hour wind blowing east to west, 24 hours per day and 365 days per year.</p>
+    </body>
+</html>
