@@ -1,0 +1,45 @@
+/* What does the app's SQL look like? */
+
+CREATE TABLE Persona (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    First_name TEXT,
+    Last_name text,
+    age INTEGER,
+    address text);
+    
+    CREATE TABLE Hours (
+    Person_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Hrs_sleep integer,
+    Hrs_work INTEGER,
+    Hrs_internet_browse integer,
+    Mood text );
+
+INSERT INTO Persona (First_name, Last_name, age, address) VALUES ("Jen", "Rimona", 45, "568 Mabury square, San Jose, CA 95129");
+
+   
+INSERT INTO Persona (First_name, Last_name, age, address) VALUES ("Dona", "Cherry", 38, "58 Sara lane, Campbell, CA 95134");
+
+INSERT INTO Persona (First_name, Last_name, age, address) VALUES ("Kamelia", "Prada", 31, "132  Washington square, San Jose, CA 95131");
+
+INSERT INTO Persona (First_name, Last_name, age, address) VALUES ("Penny", "DiKaprio", 61, "590 Brook street, Saratoga, CA 95112");
+/*data for Hours table*/
+
+INSERT INTO Hours (Hrs_sleep, Hrs_work, Hrs_internet_browse, Mood) VALUES (5, 2.5,8, "Tired");
+INSERT INTO Hours (Hrs_sleep, Hrs_work, Hrs_internet_browse, Mood) VALUES (6, 9,2, "Energized");
+INSERT INTO Hours (Hrs_sleep, Hrs_work, Hrs_internet_browse, Mood) VALUES (8, 8,5, "Sleepy");
+INSERT INTO Hours (Hrs_sleep, Hrs_work, Hrs_internet_browse, Mood) VALUES (3, 12,1, "Exhausted");
+
+Select * from Hours;
+Select * from Persona;
+select * from Persona where age > 40;
+
+Select * from Persona;
+UPDATE Hours set Mood = "Need more sleep" WHERE Person_id = 1;
+Select * from Hours;
+select * from Persona where address LIKE "%Campbell%";
+
+SELECT * FROM Persona WHERE First_name IN ("Penny", "Jen");
+DELETE FROM Persona WHERE address like "%Campbell%";
+select * from Persona;
+DELETE FROM Persona WHERE age > 40;
+select * from Persona;
