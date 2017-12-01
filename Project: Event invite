@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+          #house {
+              width: 33%;
+              
+              border: 6px ridge red;
+              float: left;
+              margin-right:6px;
+              margin-bottom: 6px;
+              
+          }  
+          #snowflake {width: 32%;
+             
+              border: 6px ridge red;
+              float: left;
+              margin-right: 6px;
+              margin-bottom: 6px;
+          }
+          #bread {
+              width: 30%;
+              
+              border: 6px ridge red;
+              float: left;
+              margin-right: 6px;
+              margin-bottom: 6px;
+              }
+          .description {
+              background: gray;
+          }
+         .firstsent {
+             color: blue;
+             font-weight: bold;
+         }
+         #textpar{
+             background: rgb(212, 206, 201);
+           width: 70%;  
+             
+         }
+         .desccookie {height: 180px;
+             overflow: auto;
+              margin: 10px;
+              padding: 2px;
+              border: 2px solid rgb(173, 72, 9);
+         }
+         .deschouse {height: 180px;
+             overflow: auto;
+              margin: 10px;
+              padding: 2px;
+              border: 2px solid rgb(173, 72, 9);
+         }
+          .descsnow {height: 180px;
+             overflow: auto;
+              margin: 10px;
+              padding: 2px;
+              border: 2px solid rgb(173, 72, 9);
+         }
+        #container {
+             width: 64%;
+             margin: auto;
+             font-family: "Helvetica", sans-serif;
+             border: 2px solid rgb(209, 199, 182);
+             border-top: 10px solid rgb(237, 202, 159);
+             padding: 15px;
+             background-color: rgb(230, 230, 230);
+             z-index: 1;
+         }
+         
+         
+         #when { font-weight: bold;}
+      
+        #invited {
+            color: rgb(222, 89, 222);
+        }
+        #cont2 {
+            background-color: rgb(212, 204, 212);
+            float: right;
+            width: 30%;
+            padding: 10px;
+            margin-left: 10px;
+            
+        }
+        #Notes { background: rgb(194, 190, 194);
+            width: 61%;
+            margin-left: 50px;
+        }
+          #hopper {
+            position: absolute;
+            top: 14px;
+            left: 344px;
+            z-index: 2;
+        }
+       
+        </style>
+    </head>
+    
+    <!----------------------body------------>
+    <body>
+    <div id="container">
+       
+      <img src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif" id="hopper">   
+        
+    <!---------------------Titles----------------->    
+        <h1 id="hello">Hello Maria,</h1>
+        <h1 id="invited">You're invited!</h1>
+        <h2>To Our Annual Workshop!</h2>
+    <!---------------------List--------------------->    
+        <h3>Time of event:  </h3>
+        <ul id="when">
+        <li>  At 5pm</li>
+        <li>Tuesday, October 31st </li>
+        <li> Address:Business Hall: 586 Samara way, Caliana, CA, 95426</li>
+        
+            
+        </ul>
+<!-----------------------Paragraphs------------------>
+<h2> What it's about:</h2> 
+<div id="textpar">
+<h3> Ginger Bread</h3>
+        <p class="desccookie"><img id="bread" src="https://www.kasandbox.org/programming-images/seasonal/gingerbread-family.png"> <span class="firstsent">Gingerbread is the scent of the season.</span> This richly spiced cookie, teeming with ginger, cloves, and cinnamon, perfumes your house from the moment you begin mixing the dough to the first tray that's pulled out of the oven. But gingerbread cookies can be a little finicky. With the wrong recipe or a few missteps they can become hard or, worse, bland! We're not having that, so we created a gingerbread cookie recipe that is not only incredibly flavorful, but also easy to handle.</p>
+        <h3> Ginger House</h3>
+        <p class="deschouse"> <img id="house" src="https://www.kasandbox.org/programming-images/seasonal/gingerbread-houses.png"> <span class="firstsent">Making a gingerbread house is no simple task </span> (unless of course you get one of those pre-fab houses, in which case these notes will be of little help).
+These houses took several gatherings, one to make the dough and the pattern pieces, one to roll out the dough and bake the pieces, one to assemble the pieces, one to decorate.
+The joy is really in the making, of the coming together to work on all the steps that are required to build a gingerbread house from scratch.
+The following are instructions I used with a gingerbread house making endeavor with a young friend. If you plan on making a gingerbread house yourself, I hope you find them useful!
+
+
+</p>
+<h3> Snowflake</h3>
+        <p class="descsnow"><img id="snowflake" src="https://www.kasandbox.org/programming-images/seasonal/snow-crystal2.png"> <span class="firstsent">The first mention of the hexagonal form </span> in relation to a snow crystal was made by Han Ying in 135 BC, in the publication "Hanshi waizhuan" (Moral Discourses Illustrating the Han text of the "Book of Odes").
+"Flowers of plants and trees are in general five-pointed. However, flowers of snow, which are called ying, are always six-pointed."
+Twelfth Century philosopher Zhu Xi theorized why snowflakes are always six-sided when he wrote:
+"The reason why snowflakes are six-pointed is because they are only half-frozen rain (xian) (i.e. water) split open by violent winds, and so they must be six-pointed. If one throws a lump of mud on the ground it will splash into a radiating, angular petal-like form. Now 6 is a yin number; and gypsum also is six-pointed with sharp prismatic angular edges. Everything is due to the number inherent in nature. "</p>
+</div>
+        <!-----------------ref---------->
+ <div id="cont2"  > 
+         <h3>Resources:  </h3>
+        <ul>
+            <li> <a href="https://www.thekitchn.com/how-to-make-gingerbread-cookies-238146">About Ginger Bread</a></li>
+            <li><a href="http://www.simplyrecipes.com/recipes/how_to_make_a_gingerbread_house/">About Ginger House</a></li>
+            <li> <a href="http://www.papersnowflakes.com/history-pics">History of Snowflakes</a></li>
+        </ul> </div> 
+
+        </div>
+   <p id="Notes" > These are notes to indicate how the floating works.The reason why snowflakes are six-pointed is because they are only half-frozen rain (xian) (i.e. water) split open by violent winds, and so they must be six-pointed. If one throws a lump of mud on the ground it will splash into a radiating, angular </p>   
+       
+    </body>
+</html>
