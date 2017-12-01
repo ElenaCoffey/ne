@@ -1,0 +1,29 @@
+//Variable that stores arrays of data
+
+var book =[ {title: "The Giver",review: "Must read!",stars: 4},
+            {title: "The Mover",review: "Interesting!",stars: 3},
+            {title: "The Rider",review: "Boring!",stars: 2},
+            {title: "The Creature",review:"Don't read!",stars: 1}];
+
+// draw shelf
+
+fill(173, 117, 33);// color for shelf
+rect(0, 120, width, 10);//shelf
+
+// Loop to draw books
+for (var i=0; i<book.length; i++){//condition for index
+fill(i*64, 106, 217);//color for books
+rect(95*i, 20, 90, 100);//books
+fill(232, 225, 232);// color for titles
+text(book[i].title,i* 99+5, 29, 70, 100);//displays titles of the books from objects
+fill(230, 255, 0);// color for reviews
+text(book[i].review,i*99+10, 64, 70, 100);//displays reviews on the books
+}
+
+// Loops to display rating stars
+for (var g=0; g<book.length; g++){//general condiiton:# of star groops = # of books
+for (var i = 0; i < book[g].stars; i++) {//condition: # of stars = # in the book.star
+    image(getImage("cute/Star"), 105*g + i * 24, 90, 20, 30);} //the star image
+    
+   
+}
